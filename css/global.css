@@ -1,0 +1,96 @@
+:root {
+    --general-bg: #000000;
+    --general-text: #ffffff;
+    --accent-text: #ba0000;
+    --transition: all .4s;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 100px;
+}
+
+.body {
+    font-family: sans-serif;
+    line-height: 1.5;
+    color: var(--general-text);
+    background: var(--general-bg);
+}
+
+.wrapper {
+    min-height: 100%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    max-width: 1360px;
+    margin: 0 auto;
+    padding: 0px 15px;
+    height: 100%;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    padding: 10px 18px;
+
+    border-radius: 36px;
+    border: 1px solid #fff;
+    width: fit-content;
+
+    font-weight: lighter;
+    font-family: sans-serif;
+
+    font-size: 16px;
+}
+
+.button-text {
+    padding-right: 8px;
+}
+
+.hero__inner {
+    margin-bottom: 122px;
+}
+
+.header {
+    margin-bottom: 170px;
+}
+
+.main__essence {
+    margin-bottom: 212px;
+}
+
+.main__testimonials {
+    margin-bottom: 160px;
+}
+
+.main__favorite {
+    margin-bottom: 240px;
+}
+
+.brands {
+    margin-bottom: 372px;
+}
+
+.main__best {
+    margin-bottom: 277px;
+}
+
+.main__visionare {
+    margin-bottom: 278px;
+}
+
+.footer {
+    margin-top: 356px;
+}
+
+.footer__inner {
+    margin-top: 130px;
+}
+
+.footer__subscribe {
+    margin-bottom: 31px;
+}
